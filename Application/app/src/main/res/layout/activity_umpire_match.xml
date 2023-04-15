@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UmpireMatch">
+
+    <EditText
+        android:id="@+id/winnerInput"
+        android:layout_width="225dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="@string/entrer_gagnant_1_2"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signUmpire"
+        android:layout_width="212dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/signer_comme_arbitre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/matchIDInputUmpire" />
+
+    <EditText
+        android:id="@+id/matchIDInputUmpire"
+        android:layout_width="225dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="368dp"
+        android:ems="10"
+        android:hint="@string/entrer_id_du_match"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/match_id_display"
+        android:layout_width="230dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="100dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/appuyez_pour_cr_er_une_id"
+        android:inputType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/generateID"
+        android:layout_width="235dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/cr_er_id_match"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/match_id_display" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

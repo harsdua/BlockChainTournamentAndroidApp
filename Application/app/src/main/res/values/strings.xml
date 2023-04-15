@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Blockchain Elo App</string>
+    <string name="generate_new_key">Generate new key</string>
+    <string name="login">Login</string>
+    <string name="enter_private_key">No key stored locally</string>
+    <string name="title">Elo App</string>
+    <string name="sign_a_match">Sign a match</string>
+    <string name="view_elo">Refresh elo</string>
+    <string name="umpire_a_match">Umpire a match</string>
+    <string name="sign">Sign</string>
+    <string name="enter_match_id">Enter match ID</string>
+    <string name="back">Back</string>
+    <string name="genmatch">Create a match</string>
+    <string name="sign_as_umpire">Sign as umpire</string>
+    <string name="match_id_will_apear_here">Match ID will apear here</string>
+    <string name="enter_player_number">Enter player number</string>
+    <string name="enter_winner_1_or_2">Enter winner (1 or 2)</string>
+    <string name="score">Score</string>
+    <string name="my_score">My score</string>
+    <string name="arbitrer">Arbitrer</string>
+    <string name="signer_un_match">Signer un match</string>
+    <string name="mon_score">Mon score</string>
+    <string name="entrer_joueur">Entrer # Joueur</string>
+    <string name="signer">Signer</string>
+    <string name="entrer_gagnant_1_2">Entrer # gagnant (1/2)</string>
+    <string name="appuyez_pour_cr_er_une_id">Appuyez pour créer une ID</string>
+    <string name="cr_er_id_match">Créer Id match</string>
+    <string name="signer_comme_arbitre">Signer comme arbitre</string>
+    <string name="entrer_id_du_match">Entrer ID du Match</string>
+    <string name="ton_score">Ton Score</string>
+    <string name="leaderboard">Leaderboard</string>
+</resources>
